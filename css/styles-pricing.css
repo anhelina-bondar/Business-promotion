@@ -1,0 +1,164 @@
+/* ================ MAIN ============== */
+
+/* ---------------- PRICING ------------------ */
+
+.price {
+}
+
+.price-title-pricing {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.price-text-pricing {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+
+.price-descr-pricing {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+}
+.price-list {
+}
+
+.price-list-item {
+}
+
+.price-subtitle {
+  font-size: 24px;
+  line-height: 1.67;
+}
+
+.price-subtitle-descr {
+  font-size: 16px;
+  line-height: 2.5;
+  color: #22343d;
+}
+.price-sum {
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 1.31579;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #02897a;
+}
+
+.price-dollar {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.25;
+  letter-spacing: 0em;
+  color: #02897a;
+}
+
+.price-per-month {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.01em;
+  color: #afafaf;
+}
+
+.price-menu-list {
+}
+
+.price-menu-item {
+}
+
+.price-menu-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.38;
+  letter-spacing: 0.01em;
+}
+
+.price-button {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  background-color: #02897a;
+}
+
+/* ------------------ ENTERPRISE ------------------ */
+
+.enterprise {
+}
+
+.enterprise-title {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.enterprise-text {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.enterprise-descr {
+  font-size: 18px;
+}
+
+.enterprise-button {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  background: #02897a;
+}
+
+/* ------------------ EFFECTS ------------------ */
+
+.effects {
+}
+
+.effects-text {
+  font-weight: 700;
+  font-size: 34px;
+}
+
+.effects-list {
+}
+
+.effects-list-item {
+}
+
+.effects-subtitle {
+  font-weight: 600;
+  font-size: 24px;
+  text-align: center;
+}
+
+.effects-descr {
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+/* ------------------ FAQ ------------------ */
+
+.questions {
+}
+
+.questions-title {
+  font-size: 34px;
+}
+
+.questions-text {
+  font-size: 18px;
+}
+
+.questions-list {
+}
+
+.questions-list-item {
+}
+
+.questions-subtitle {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.questions-list-descr {
+  font-size: 16px;
+}
