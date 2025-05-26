@@ -8,12 +8,30 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 ul,
 ol {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
+
 button {
   cursor: pointer;
+  border: none;
 }
 
 .logo {
@@ -21,6 +39,15 @@ button {
   font-size: 30px;
   line-height: 0.93;
   color: #173a56;
+  display: flex;
+  align-items: center;
+  padding: 22px 0;
+}
+
+.container {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 /* ================ HEADER ============= */
@@ -28,16 +55,25 @@ button {
 .header {
 }
 
+.header-container {
+  display: flex;
+}
+
 .header-nav {
+  display: flex;
 }
 
 .header-logo {
 }
 
 .header-image-logo {
+  margin-right: 16px;
 }
 
 .header-menu-list {
+  display: flex;
+  gap: 30px;
+  align-items: center;
 }
 
 .header-menu-item {
@@ -47,6 +83,7 @@ button {
   font-size: 16px;
   line-height: 1.75;
   color: #22343d;
+  padding: 26px 0;
 }
 
 .header-link-active {
@@ -57,6 +94,10 @@ button {
 }
 
 .header-enter-list {
+  display: flex;
+  gap: 20px;
+  margin-left: auto;
+  align-items: center;
 }
 
 .header-enter-item {
@@ -68,6 +109,11 @@ button {
   text-align: center;
   color: #173a56;
   background-color: #fff;
+  border-radius: 4px;
+  width: 105px;
+  height: 42px;
+  border: 1px solid #bcd0e5;
+  padding: 9px 24px;
 }
 
 .header-button-sign-up {
@@ -75,6 +121,10 @@ button {
   font-weight: 600;
   font-size: 16px;
   color: #fff;
+  border-radius: 4px;
+  width: 113px;
+  height: 42px;
+  padding: 9px 24px;
 }
 
 /* ================ MAIN ==================== */
