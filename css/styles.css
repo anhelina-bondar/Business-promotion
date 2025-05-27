@@ -123,12 +123,19 @@
 .management-container {
   display: flex;
   align-items: center;
+  gap: 84px;
 }
 
 .management-title {
+  padding-bottom: 25px;
+}
+
+.title-part {
+  display: block;
 }
 
 .management-text {
+  padding-bottom: 30px;
 }
 
 .management-list {
@@ -141,9 +148,11 @@
   font-weight: 600;
   font-size: 16px;
   line-height: 1.63;
+  padding-bottom: 12px;
 }
 
 .mangement-descr {
+  padding-bottom: 25px;
 }
 
 .management-image {
@@ -152,15 +161,24 @@
 /* ----------------- SUPPORT --------------- */
 
 .support {
+  padding: 50px 0;
+}
+
+.support-container {
+  display: flex;
+  gap: 85px;
+  align-items: center;
 }
 
 .support-image {
 }
 
 .support-title {
+  margin-bottom: 25px;
 }
 
 .support-text {
+  margin-bottom: 30px;
 }
 
 .section-text {
@@ -170,6 +188,7 @@
 }
 
 .support-list-item {
+  margin-bottom: 30px;
 }
 
 .support-descr {
@@ -178,18 +197,28 @@
 /* ----------------- COLLABORATIVE --------------- */
 
 .collaborative {
+  padding: 50px 0 75px 0;
+}
+
+.collaborative-container {
+  display: flex;
+  align-items: center;
+  gap: 84px;
 }
 
 .collaborative-title {
+  margin-bottom: 25px;
 }
 
 .collaborative-text {
+  margin-bottom: 30px;
 }
 
 .collaborative-list {
 }
 
 .collaborative-list-item {
+  margin-bottom: 25px;
 }
 
 .collaborative-descr {
@@ -201,6 +230,7 @@
 /* ----------------- HELP --------------- */
 
 .help {
+  padding: 75px 0 50px 0;
 }
 
 .help-title {
@@ -210,20 +240,37 @@
 .help-text {
   font-weight: 500;
   text-align: center;
+  margin: 25px auto 40px auto;
+  max-width: 542px;
 }
 
 .help-list {
+  column-gap: 90px;
+  row-gap: 25px;
+  justify-content: center;
+  align-items: center;
+
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .help-list-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
 }
 
 .help-image {
 }
 
 .help-descr {
+  width: calc((100% - 198px - 40px - 90px) / 4);
   font-weight: 500;
   text-align: center;
+  fill: #fff;
+  padding: 13px 20px;
+  width: 281px;
+  box-shadow: 2px 2px 10px 0 rgba(23, 58, 86, 0.15);
 }
 
 .help-button {
@@ -231,11 +278,18 @@
   font-size: 16px;
   color: #fff;
   background-color: #02897a;
+  margin: 50px auto 0 auto;
+  display: block;
+  border-radius: 4px;
+  width: 216px;
+  height: 53px;
+  padding: 15px 30px;
 }
 
 /* ----------------- STRATEGIES --------------- */
 
 .strategy {
+  padding: 50px 0 85px 0;
 }
 
 .strategy-title {
@@ -246,12 +300,19 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  margin: 10px 0 40px 0;
+  max-width: 465px;
 }
 
 .strategy-list {
+  display: flex;
+  gap: 30px;
 }
 
 .strategy-list-item {
+  border-radius: 8px;
+  border: 1px solid #dedede;
+  width: calc((100% - 60px) / 3);
 }
 
 .strategy-list-link {
@@ -264,6 +325,11 @@
   font-size: 16px;
   line-height: 1.75;
   color: #22343d;
+  margin-bottom: 12px;
+}
+
+.strategy-item-container {
+  padding: 24px 27px 40px 27px;
 }
 
 .strategy-descr-bold {
@@ -271,7 +337,6 @@
 }
 
 .strategy-subtitle {
-  font-weight: 700;
   font-size: 24px;
   line-height: 1.67;
   color: #22343d;
@@ -280,6 +345,7 @@
 /* ----------------- PRICE --------------- */
 
 .price {
+  padding: 85px 0 50px 0;
 }
 
 .price-title {
@@ -291,12 +357,27 @@
   font-weight: 500;
   font-size: 16px;
   text-align: center;
+  margin: 10px 0 40px;
 }
 
 .price-list {
+  display: flex;
+  gap: 72px;
+}
+
+.per-month-container {
+  display: flex;
+  align-items: center;
+  gap: 7px;
 }
 
 .price-list-item {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.25);
+  background: #fff;
+  padding: 32px 68px;
+  width: calc((100% - 72px * 2) / 3);
+  text-align: center;
 }
 
 .price-subtitle {
@@ -309,6 +390,7 @@
   line-height: 2.5;
   color: #22343d;
 }
+
 .price-sum {
   font-weight: 700;
   font-size: 76px;
@@ -316,6 +398,10 @@
   letter-spacing: 0em;
   text-align: center;
   color: #02897a;
+}
+
+.price-sum-container {
+  text-align: start;
 }
 
 .price-dollar {
@@ -335,9 +421,11 @@
 }
 
 .price-menu-list {
+  margin: 16px 0 30px 0;
 }
 
 .price-menu-item {
+  margin-bottom: 16px;
 }
 
 .price-menu-text {
@@ -352,16 +440,22 @@
   font-size: 18px;
   color: #fff;
   background-color: #02897a;
+  border-radius: 8px;
+  width: 139px;
+  height: 44px;
+  padding: 11px 19px;
 }
 
 /* ----------------- REVIEWS  --------------- */
 
 .reviews {
+  padding: 50px 0;
 }
 
 .reviews-title {
   line-height: 1.79;
   letter-spacing: 0.01em;
+  text-align: center;
 }
 
 .reviews-text {
@@ -370,12 +464,20 @@
   line-height: 1.75;
   letter-spacing: 0.01em;
   text-align: center;
+  max-width: 537px;
+  margin: 10px auto 40px auto;
 }
 
 .reviews-list {
+  display: flex;
+  gap: 65px;
 }
 
 .reviews-list-item {
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  padding: 28px 26px;
+  width: calc((100%-130px) / 3);
 }
 
 .rewiews-list-descr {
@@ -383,6 +485,12 @@
   line-height: 1.75;
   letter-spacing: 0.01em;
   color: #737373;
+  margin: 16px 0;
+}
+
+.reviews-container {
+  display: flex;
+  gap: 15px;
 }
 
 .reviews-image {
